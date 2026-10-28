@@ -1,0 +1,10 @@
+DOCUMENT ID: INT-PAT-2024-0892
+TITLE: Dynamic Disulfide Polymer Composites for Solid-State Lithium and Sodium Batteries
+
+ABSTRACT:
+A self-healing solid polymer electrolyte matrix utilizing aromatic disulfide dynamic exchange chemistry. The matrix is prepared by reacting bis(4-aminophenyl) disulfide with poly(ethylene glycol) diisocyanate. The resulting dynamic network undergoes spontaneous metathesis reactions at room temperature, healing interfacial cracks and void formation at the electrolyte-anode interface caused by metal volume fluctuations during charge-discharge cycling.
+
+KEY TECHNICAL EMBODIMENTS:
+- Dynamic polymer network exhibits young's modulus of 45 MPa and ionic conductivity of 3.4 x 10^-4 S/cm when swollen with 15 wt% sodium salt.
+- Autonomous healing efficiency of tensile strain recovery reaches 95% after 6 hours at 25°C without external catalyst additions.
+- Prevents impedance rise across 500 deep charge-discharge cycles in sodium metal symmetrical test cells.

@@ -1,0 +1,10 @@
+DOCUMENT ID: INT-PAT-2025-0114
+TITLE: Embedded Optical Fiber Bragg Grating Sensors for Battery Core Diagnostics
+
+ABSTRACT:
+A diagnostic system for monitoring thermal and mechanical stress within sealed pouch cells. Silica and polymer optical fibers containing written Fiber Bragg Gratings (FBG) are laminated directly between current collector foils and separator layers. An optoelectronic interrogator tracks wavelength shifts in real-time to isolate thermal expansion from mechanical strain gradients.
+
+KEY TECHNICAL EMBODIMENTS:
+- PMMA polymer optical fiber of 50 µm diameter embedded without causing delamination or electrolyte leakage.
+- Simultaneous dual-parameter measurement: wavelength thermal sensitivity of 10 pm/°C and strain sensitivity of 1.2 pm/micro-strain.
+- Early detection of internal short-circuits up to 45 seconds prior to external thermal signature elevation.

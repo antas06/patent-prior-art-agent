@@ -1,0 +1,24 @@
+# Python virtual environments
+.venv/
+
+# Byte-compiled / Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+.env
+
+# Local databases & Qdrant Embedded storage
+data/qdrant_db/
+*.db
+*.sqlite
+
+# Streamlit local settings & caches
+.streamlit/secrets.toml
+
+# Operating System files
+.DS_Store
+
+
+# Logs and traces
+*.log

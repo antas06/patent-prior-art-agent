@@ -1,0 +1,66 @@
+INVENTION DISCLOSURE STATEMENT
+
+TITLE OF THE INVENTION:
+Autonomous Self-Healing Solid-State Sodium-Ion Battery Cell with In-Situ Dynamic Polymer Network and Integrated Optical Fiber Sensing Grid
+
+INVENTORS:
+Dr. Elena Rostova, Marcus Vance, and Dr. Aris Thorne
+
+FIELD OF THE INVENTION:
+This invention relates generally to solid-state electrochemical energy storage devices, and more particularly to solid-state sodium-ion (Na-ion) battery architecture incorporating dynamic reversible polymer electrolyte matrices, embedded micro-encapsulated liquid alloy repair agents, and integrated distributed fiber-optic thermal sensing networks.
+
+BACKGROUND OF THE INVENTION AND PRIOR ART DEFICIENCIES:
+Solid-state battery architectures are increasingly targeted for commercial scale-up due to their safety profile and higher volumetric energy densities compared to conventional liquid-electrolyte lithium-ion systems. However, transition from lithium to sodium-ion chemistry presents severe mechanical and interface degradation challenges:
+
+1. Volumetric Expansion Stress: Sodium ions possess an ionic radius approximately 70% larger than lithium ions (1.02 Å vs 0.76 Å). Repeated insertion and extraction of Na+ ions into solid-state cathode and anode lattices induce cyclic volumetric expansion and contraction exceeding 15–20%.
+2. Interfacial Micro-cracking: Mechanical fatigue rapidly causes interfacial delamination at the solid electrolyte-electrode boundaries, resulting in exponential increases in cell internal impedance and catastrophic capacity fade within fewer than 200 cycles.
+3. Dendrite Growth along Grain Boundaries: Despite solid electrolyte interfaces, metallic sodium dendrites propagate along grain boundaries of inorganic ceramic electrolytes (such as NASICON-type Na3Zr2Si2PO12) during high-rate fast charging (>2C).
+4. Thermal Monitoring Latency: External thermocouple arrays fail to detect localized sub-surface thermal runaways and hot-spots originating within the central core of stacked pouch cells until thermal propagation has already compromised structural integrity.
+
+SUMMARY OF THE INVENTION:
+The present invention solves these limitations by integrating a multi-tiered self-healing matrix directly within the solid-state electrolyte phase, combined with real-time internal thermal-strain mapping. 
+
+The system comprises three primary synergistic innovations:
+  A. A hybrid solid-state electrolyte comprising a NASICON ceramic scaffold infiltrated with a dynamic cross-linked poly(disulfide-urethane) dynamic covalent network capable of autonomous crack closure at ambient operating temperatures (20–45°C).
+  B. An array of micro-encapsulated gallium-indium (Ga-In) eutectic liquid metal micro-spheres (3–8 µm diameter) dispersed at the anode-electrolyte interface that rupture under localized mechanical shear stress caused by emerging sodium dendrites, instantly forming a non-dendritic Na-Ga-In intermetallic alloy pool that smooths the interface.
+  C. A grid of ultra-thin (50 µm diameter) polymethyl methacrylate (PMMA) optical Fiber Bragg Grating (FBG) sensors woven directly between internal cell separator-electrolyte layers to provide sub-millisecond core temperature and localized mechanical strain telemetry to an intelligent battery management system (BMS).
+
+DETAILED DESCRIPTION OF PREFERRED EMBODIMENTS:
+
+Section 1: Dynamic Self-Healing Electrolyte Composite
+In a preferred embodiment, the solid electrolyte structure comprises a dual-phase inorganic-organic composite matrix. The inorganic continuous framework consists of Na3.1Zr1.95Mg0.05Si2PO12 (doped NASICON) exhibiting an ionic conductivity of 1.2 x 10^-3 S/cm at 25°C. 
+
+Interspersed within the 25% porous volume of the NASICON ceramic structure is a dynamic polymer network containing aromatic disulfide bonds and hydrogen-bonding urethane motifs. When micro-fractures initiate due to sodium lattice expansion, dynamic disulfide exchange reactions occur autonomously across the fracture interfaces without requiring external heat inputs, restoring over 92% of original ionic conductivity within 4 hours of rest.
+
+Section 2: Micro-Encapsulated Liquid Metal Dendrite Mitigation
+At the anode interface adjacent to the sodium metal current collector, the cell incorporates a monolayer of microcapsules. The microcapsules feature a brittle shell composed of silica-titania hybrid shell nanocomposite (shell thickness: 120 nm) encapsulating a core of eutectic Gallium-Indium alloy (75.5% Ga, 24.5% In by weight). 
+
+Upon localized pressure elevation (>15 MPa) caused by the tip of a growing sodium dendrite, adjacent microcapsules undergo localized mechanical rupture. The released liquid metal wets the sodium dendrite, forming a conductive liquid alloy interface that distributes local current density evenly and dissolves the dendrite tip back into the planar anode surface.
+
+Section 3: Integrated In-Situ Optical Fiber Sensing Grid
+Rather than relying on surface-mounted thermal sensors, the cell incorporates a planar array of PMMA-based Fiber Bragg Grating (FBG) optical fibers integrated during the stacking process of the cathode-electrolyte-anode layers. The optical fibers have a cladding diameter of 50 µm and feature write-in Bragg gratings every 10 mm.
+
+The FBG array is connected to an integrated photonic interrogator operating at a center wavelength of 1550 nm. By measuring shifts in the Bragg wavelength (lambda_B), the system simultaneous calculates internal temperature with a resolution of +/- 0.1°C and internal strain with a resolution of +/- 5 micro-strains at a sampling frequency of 1 kHz.
+
+Section 4: Closed-Loop BMS Control and Thermal Mitigation
+The internal FBG sensor signals are fed directly into an active BMS control unit. If internal localized strain gradients exceed 12 micro-strains/sec or localized core temperature spikes above 55°C, the BMS dynamically redistributes current input via pulse-width modulation (PWM) and activates an external high-frequency ultrasonic transducer (40 kHz) bonded to the cell tabs to accelerate dynamic polymer bond exchange and interface stress relaxation.
+
+PROVISIONAL PATENT CLAIMS:
+
+Claim 1 (Independent):
+A solid-state electrochemical battery cell comprising:
+  a cathode layer;
+  an anode layer comprising a sodium-based active material;
+  a solid-state hybrid electrolyte layer disposed between the cathode layer and the anode layer, wherein the solid-state hybrid electrolyte layer comprises an inorganic ceramic framework infiltrated with a self-healing dynamic cross-linked polymer network; and
+  a plurality of liquid-metal microcapsules disposed at an interface between the solid-state hybrid electrolyte layer and the anode layer, wherein the microcapsules are configured to rupture under mechanical stress exerted by dendrite growth.
+
+Claim 2 (Dependent):
+The battery cell of claim 1, wherein the self-healing dynamic cross-linked polymer network comprises dynamic aromatic disulfide bonds capable of cleavage and recombination at temperatures between 15°C and 50°C.
+
+Claim 3 (Dependent):
+The battery cell of claim 1, wherein the liquid-metal microcapsules contain a eutectic Gallium-Indium (Ga-In) alloy enclosed within a brittle inorganic silica-titania shell having an average shell thickness between 50 nm and 200 nm.
+
+Claim 4 (Independent):
+A solid-state electrochemical cell with integrated internal diagnostic sensing, comprising:
+  a multi-layer cell stack comprising at least one cathode, one anode, and one solid-state electrolyte layer; and
+  at least one optical fiber sensor embedded within the interior volume of the multi-layer cell stack, the optical fiber sensor comprising a plurality of Fiber Bragg Gratings (FBG) configured to measure internal temperature gradients and localized mechanical strain within the cell stack simultaneously in real time.
