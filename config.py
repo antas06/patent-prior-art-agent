@@ -13,11 +13,11 @@ class Config:
   # Langfuse Observability
   LANGFUSE_PUBLIC_KEY: str = os.getenv("LANGFUSE_PUBLIC_KEY", "")
   LANGFUSE_SECRET_KEY: str = os.getenv("LANGFUSE_SECRET_KEY", "")
-  LANGFUSE_HOST: str = os.getenv("LANGFUSE_HOST", "https://cloud.langfuse.com")
+  LANGFUSE_HOST: str = os.getenv("LANGFUSE_HOST", "")
   
   # Models
   SYSTEM1_MODEL: str = "laya-1.0"
-  LLM_MODEL: str = "llama3-8b-8192"
+  LLM_MODEL: str = "openai/gpt-oss-120b"
   
   # System 1 CRAG Thresholds
   THRESH_RELEVANT: float = 0.65
