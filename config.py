@@ -13,7 +13,8 @@ class Config:
   # Langfuse Observability
   LANGFUSE_PUBLIC_KEY: str = os.getenv("LANGFUSE_PUBLIC_KEY", "")
   LANGFUSE_SECRET_KEY: str = os.getenv("LANGFUSE_SECRET_KEY", "")
-  LANGFUSE_HOST: str = os.getenv("LANGFUSE_HOST", "")
+  # Accepts LANGFUSE_HOST (preferred) with LANGFUSE_BASE_URL as a fallback
+  LANGFUSE_HOST: str = os.getenv("LANGFUSE_HOST") or os.getenv("LANGFUSE_BASE_URL") or "https://cloud.langfuse.com"
   
   # Models
   SYSTEM1_MODEL: str = "laya-1.0"
@@ -27,4 +28,5 @@ class Config:
   # Engine Limits
   MAX_FEATURES: int = 4
   MAX_WEB_ROUNDS: int = 2
+  WEB_FALLBACK_THRESHOLD: float = 0.4
   QDRANT_PATH: str = "./data/qdrant_db"

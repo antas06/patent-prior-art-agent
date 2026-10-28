@@ -40,4 +40,4 @@ class QdrantRetriever:
       query_vector=query_emb,
       limit=top_k
     )
-    return [hit.payload["text"] for hit in hits]
+    return [hit.payload.get("text", "") for hit in hits]

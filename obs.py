@@ -7,10 +7,11 @@ class Tracer:
   def __init__(self, config: Config):
     self.enabled = bool(config.LANGFUSE_PUBLIC_KEY and config.LANGFUSE_SECRET_KEY)
     if self.enabled:
+      host = config.LANGFUSE_HOST or "https://cloud.langfuse.com"
       self.client = Langfuse(
         public_key=config.LANGFUSE_PUBLIC_KEY,
         secret_key=config.LANGFUSE_SECRET_KEY,
-        host=config.LANGFUSE_HOST
+        host=host
       )
     else:
       self.client = None

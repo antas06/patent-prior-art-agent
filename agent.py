@@ -30,8 +30,8 @@ class PriorArtAgent:
         
     report = self._synthesize_report(features, evidence_cards, trace)
     
-    if hasattr(trace, "update"):
-      trace.update(output={"report_length": len(report)})
+    if hasattr(trace, "end"):
+      trace.end(output={"report_length": len(report)})
     
     self.tracer.flush()
     

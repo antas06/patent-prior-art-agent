@@ -32,7 +32,7 @@ class CRAGPipeline:
       scores = self.sys1.grade_chunk(feature, w_text, parent_span=parent_span)
       graded_chunks.append({"text": w_text, "scores": scores, "source": "web"})
 
-    final_evidence = [c for c in graded_chunks if c["scores"]["relevant"] >= 0.4]
+    final_evidence = [c for c in graded_chunks if c["scores"]["relevant"] >= self.config.WEB_FALLBACK_THRESHOLD]
     
     return {"route": "WEB_FALLBACK", "evidence": final_evidence}
 

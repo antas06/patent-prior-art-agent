@@ -27,7 +27,7 @@ class CodivSystem1Judge:
       span = parent_span.span(name="system1_grade", input={"feature": feature, "chunk": chunk_text[:100]})
 
     try:
-      response = requests.post(self.endpoint, headers=headers, json=payload)
+      response = requests.post(self.endpoint, headers=headers, json=payload, timeout=30)
       response.raise_for_status()
       data = response.json()
       probs = data.get("probabilities", {})
